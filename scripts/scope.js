@@ -69,6 +69,16 @@ function subFun(myValue) {
     console.log(myValue);
 }
 
+// var newValue = 2;
+
+// function newFun() {
+//     newValue = 3;
+// }
+
+// function newFun2() {
+//     console.log(newValue);
+// }
+
 // STEP 7c: Call up mainFunction() in your console directly after refreshing the page in the browser
 // STEP 7d: The subfunction cannot access myValue - so pass myValue as a parameter into subFunction(), and update the function to accept the parameter, renaming it simply, 'value' - update the console.log() method as well, then reload the page and enter mainFunction() again in the browser
 // Next, open up custom.html and we will look at how the accessibility of variables depends on where they are defined/initialized.
